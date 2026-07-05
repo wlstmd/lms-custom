@@ -1,0 +1,26 @@
+html.kmu-dark-mode {
+  filter: invert(1) hue-rotate(180deg) !important;
+  background: #fff !important;
+}
+
+html.kmu-dark-mode img,
+html.kmu-dark-mode video,
+html.kmu-dark-mode iframe,
+html.kmu-dark-mode svg,
+html.kmu-dark-mode canvas,
+html.kmu-dark-mode picture,
+html.kmu-dark-mode i[class*="icon-"] {
+  filter: invert(1) hue-rotate(180deg) !important;
+}
+
+html.kmu-dark-mode ::-webkit-scrollbar {
+  background: #1a1a1a;
+}
+html.kmu-dark-mode ::-webkit-scrollbar-thumb {
+  background: #555;
+  border-radius: 8px;
+}
+
+html {
+  transition: filter 0.2s ease-in-out;
+}

@@ -1,0 +1,36 @@
+body {
+  width: 220px;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #111827;
+  color: white;
+}
+
+.popup {
+  padding: 16px;
+}
+
+h2 {
+  font-size: 16px;
+  margin: 0 0 14px;
+}
+
+button {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+#lightBtn {
+  background: #f3f4f6;
+  color: #111827;
+}
+
+#darkBtn {
+  background: #2563eb;
+  color: white;
+}
