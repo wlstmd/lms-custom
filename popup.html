@@ -6,12 +6,32 @@
   </head>
   <body>
     <div class="popup">
-      <h2>KMU LMS Helper</h2>
+      <div class="header">
+        <span class="logo-dot"></span>
+        <h2>KMU LMS Helper</h2>
+      </div>
 
-      <button id="lightBtn">☀️ Light Mode</button>
-      <button id="darkBtn">🌙 Dark Mode</button>
+      <div class="toggle-group" id="toggleGroup">
+        <button id="lightBtn" class="mode-btn">
+          <span class="icon">☀️</span>
+          <span>Light</span>
+        </button>
+        <button id="darkBtn" class="mode-btn">
+          <span class="icon">🌙</span>
+          <span>Dark</span>
+        </button>
+        <div class="slider" id="slider"></div>
+      </div>
+
+      <div class="section-title">
+        <span class="icon-small">👤</span>
+        <span>담당교수 정보</span>
+      </div>
+
+      <div class="prof-card" id="profCard">
+        <div class="prof-loading">불러오는 중...</div>
+      </div>
     </div>
-
     <script src="./popup.js"></script>
   </body>
 </html>
